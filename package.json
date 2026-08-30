@@ -1,0 +1,16 @@
+{
+  "name": "frogger-plus",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A rain-soaked third-person highway sprint for iPhone, played in the browser.",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "test": "node tools/suites/run.mjs",
+    "shots": "node tools/shots.mjs",
+    "vendor": "node tools/vendor.mjs"
+  },
+  "devDependencies": {
+    "three": "0.185.1"
+  }
+}

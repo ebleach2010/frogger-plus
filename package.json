@@ -11,6 +11,7 @@
     "vendor": "node tools/vendor.mjs"
   },
   "devDependencies": {
+    "esbuild": "^0.28.2",
     "three": "0.185.1"
   }
 }

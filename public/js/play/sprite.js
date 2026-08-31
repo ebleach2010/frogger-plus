@@ -262,6 +262,20 @@ export function createSprite(image, manifest) {
  * with no code change.
  */
 export async function loadSprite(baseUrl, fallback) {
+  // The single-file build (tools/make-artifact.mjs) carries the sheet inline
+  // as a data URI instead of fetching it -- the shareable test-ride page is
+  // one self-contained file with no network requests at all.
+  const embed = globalThis.__FP_EMBED;
+  if (embed?.manifest && embed?.image) {
+    const image = await new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = () => reject(new Error('embedded sheet failed to decode'));
+      img.src = embed.image;
+    }).catch(() => null);
+    if (image) return { sprite: createSprite(image, embed.manifest), source: 'embedded' };
+  }
+
   try {
     const response = await fetch(`${baseUrl}.json`, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`no manifest (${response.status})`);

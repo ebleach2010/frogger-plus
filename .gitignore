@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.log
+
+# Screenshot output from tools/shots.mjs. Regenerated on demand, never committed.
+shots/
+
+# public/vendor/ is deliberately NOT ignored. three.js is committed into the
+# repo on purpose: the game is served from GitHub Pages as flat static files
+# with no build step, and the build container that produces it cannot reach
+# any CDN. Vendored bytes are the only thing that works in both places.

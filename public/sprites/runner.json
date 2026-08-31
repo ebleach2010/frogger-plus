@@ -1,0 +1,39 @@
+{
+  "image": "runner.png",
+  "frameWidth": 256,
+  "frameHeight": 320,
+  "worldHeight": 1.78,
+  "feetInset": 0.03125,
+  "directions": [
+    0,
+    8,
+    18,
+    30,
+    162,
+    172,
+    180,
+    190,
+    198,
+    208,
+    232,
+    256,
+    322,
+    340,
+    352
+  ],
+  "mirror": true,
+  "animations": {
+    "run": {
+      "startRow": 0,
+      "frames": 1,
+      "fps": 1,
+      "loop": true
+    },
+    "idle": {
+      "startRow": 0,
+      "frames": 1,
+      "fps": 1,
+      "loop": true
+    }
+  }
+}

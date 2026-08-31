@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- viewport-fit=cover is what lets the canvas run under the notch and the home
+     indicator. Without it iOS letterboxes a standalone web app with white bars,
+     which on a night-time game looks like a rendering bug. The safe areas are
+     then given back to the HUD in css/game.css via env(safe-area-inset-*). -->
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+
+<title>Frogger Plus</title>
+<meta name="description" content="Sprint across a rain-soaked New York highway. Three lives. It only gets worse.">
+
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Frogger+">
+<meta name="theme-color" content="#0a0d14">
+<meta name="color-scheme" content="dark">
+
+<link rel="stylesheet" href="./css/game.css?v=1">
+
+<!-- Every path here is relative. GitHub Pages serves this game from the
+     /frogger-plus/ subpath, so a single leading slash anywhere would 404 in
+     production while working perfectly on localhost. -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/three.module.min.js"
+  }
+}
+</script>
+</head>
+<body>
+
+<canvas id="stage" aria-label="Game" role="img"></canvas>
+
+<!-- The HUD is plain DOM on top of the canvas, not drawn in WebGL. Text stays
+     crisp at any device pixel ratio, it costs no GPU time, and the layout can
+     lean on safe-area insets for free. -->
+<div id="hud" class="hud" hidden>
+  <div class="hud-tl">
+    <div id="hearts" class="hearts" role="status" aria-label="Lives"></div>
+  </div>
+  <div class="hud-tc">
+    <div class="stat">
+      <span class="stat-label">SCORE</span>
+      <span id="score" class="stat-value">0</span>
+    </div>
+  </div>
+  <div class="hud-tr">
+    <div class="coins">
+      <span class="coin-icon" aria-hidden="true"></span>
+      <span id="coins" class="coin-value">0</span>
+    </div>
+    <div id="stage-label" class="stage-label">STAGE 1</div>
+  </div>
+  <div id="powerups" class="powerups" role="status" aria-live="polite"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</div>
+
+<div id="screens" class="screens">
+  <section id="screen-title" class="screen is-on">
+    <h1 class="title">FROGGER<span class="title-plus">+</span></h1>
+    <p class="tagline">Get across. Three lives. It only gets worse.</p>
+    <button id="btn-play" class="btn btn-primary" type="button">PLAY</button>
+    <p class="hint">Hold anywhere and drag to run.</p>
+  </section>
+
+  <section id="screen-over" class="screen">
+    <h2 class="over-title">FLATTENED</h2>
+    <dl class="results">
+      <div><dt>SCORE</dt><dd id="over-score">0</dd></div>
+      <div><dt>BEST</dt><dd id="over-best">0</dd></div>
+      <div><dt>STAGE</dt><dd id="over-stage">1</dd></div>
+      <div><dt>COINS</dt><dd id="over-coins">0</dd></div>
+    </dl>
+    <button id="btn-again" class="btn btn-primary" type="button">RUN AGAIN</button>
+  </section>
+
+  <section id="screen-loading" class="screen is-on">
+    <div class="loader" aria-hidden="true"></div>
+    <p class="loading-text">Warming up the rain…</p>
+  </section>
+</div>
+
+<noscript>
+  <p style="color:#fff;padding:2rem;font:600 16px system-ui">
+    This game needs JavaScript and WebGL.
+  </p>
+</noscript>
+
+<script type="module" src="./js/main.js?v=1"></script>
+</body>
+</html>

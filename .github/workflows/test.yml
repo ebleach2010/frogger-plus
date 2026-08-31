@@ -1,0 +1,25 @@
+# The suite battery, on every push and pull request.
+#
+# Only the pure-node suites run here: they need nothing but the repo and a
+# node runtime, so they are fast and cannot flake on browser installs. The
+# Playwright drive (tools/drives/drive-play.mjs) is a local/preview tool --
+# it wants a real Chromium and a graphics stack, and its screenshots want a
+# human looking at them.
+
+name: suites
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  battery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node tools/suites/run.mjs

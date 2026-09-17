@@ -20,50 +20,52 @@ Three engines instead of one (AI compute, the GLP-1 franchise, and the electrici
 
 Roughly 94% AI semiconductors and megacap platforms, 7% tankers, refining and gold, zero healthcare, zero power or grid (app percentages sum to 101 from rounding). 2026 has been exceptional for it: MU about +256% YTD, AMD about +135%, VLO about +141%, LRCX about +55%, ASML about +48%.
 
-## The allocation: $500, 14 positions
+## The portfolio as entered: 17 positions, no sells
 
-Enter the dollar amounts directly (fractional shares). "Trim above" is the single-position cap: 2x target for core names, 3x for the two speculative biotechs.
+The account already held twelve positions worth $259.63 that express most of this thesis. Rather than sell five of them to rebuild, the $241 deposit goes entirely to buys, and the four names outside the plan (VOO, HIMS, WST, AMZN) are never added to again. They shrink into rounding errors as deposits arrive; selling them is optional, never required. Zero tax events.
 
-### Sleeve A: AI compute and supply chain, 45% ($225)
+**The twelve orders** (dollar-amount fractional buys): LLY $42, NVO $35, GEV $25, CEG $25, SGOV $25, AMGN $20, NVDA $15, TSM $15, VRT $15, AVGO $12, MSFT $11, GPCR $1. Total $241.00. Nothing sold.
 
-| Ticker | Target | Dollars | Trim above | Why |
-|---|---|---|---|---|
-| NVDA | 10% | $50 | 20% | Accelerator leader. Q2 FY27 revenue $96.2B (+106%), data center $89.0B; guided $108B; demand exceeds supply for 70% FY28 growth. |
-| SMH | 10% | $50 | 20% | VanEck Semiconductor ETF (0.35% fee, ~$66B AUM). Holds MU, AMD, ASML, LRCX, AMAT, KLAC, QCOM among ~25 names. |
-| TSM | 8% | $40 | 16% | Leading-edge foundry monopoly, ~72% share; 2026 growth "slightly above 40%"; capex $60 to 64B; August revenue +53%. |
-| AVGO | 6% | $30 | 12% | Custom AI silicon plus networking. AI semi revenue $16.7B (+221%), guided $21.7B; FY27 $115B, FY28 $230B. |
-| GOOGL | 6% | $30 | 12% | Owns chips (TPU), model and distribution. Cloud +82%, backlog $514B. ~16.5x forward. |
-| MSFT | 5% | $25 | 10% | Azure +43%, >$100B run rate. FY27 capex $255 to 260B. |
+Bands are per position: core names have an add-first level at half their target and a trim level at twice it (trim back to 1.5x). Legacy and speculative names have no add level and are trimmed if they double. The workbook's Quarterly check tab does the arithmetic.
 
-### Sleeve B: GLP-1 / obesity pipeline, 35% ($175)
+### Engine one: AI compute and platforms, 39% ($195)
 
-| Ticker | Target | Dollars | Trim above | Why |
-|---|---|---|---|---|
-| LLY | 18% | $90 | 36% | Category leader. Q2 revenue $23.0B (+48%); FY26 guide $85 to 87B; Foundayo (oral) launched April; retatrutide up to 30% weight loss in Phase 3. ~24x forward. |
-| NVO | 8% | $40 | 16% | Contrarian. Down ~69% from 2024 peak after CagriSema lost to Zepbound; oral Wegovy ~90% of US oral scripts; amycretin in six Phase 3 trials; $1.3B cost cut. ~12x trailing. |
-| AMGN | 5% | $25 | 10% | MariTide monthly injection, Phase 3 topline 1H 2027, inside a dividend-paying large cap. |
-| VKTX | 2% | $10 | 6% | Viking. VK2735 injectable Phase 3 (data mid-2027), oral Phase 3 starts Q4 2026, $502M cash. Takeover candidate. Speculative. |
-| GPCR | 2% | $10 | 6% | Structure Therapeutics. Oral aleniglipron Phase 3 started July 2026 (data ~2028), $1.3B cash. Speculative. |
+| Ticker | Weight | Target | Add first below | Trim above | Back to | Role |
+|---|---|---|---|---|---|---|
+| NVDA | 10.8% | 11% | 5.5% | 22% | 16.5% | Accelerator leader; supply-constrained through FY28 |
+| TSM | 7.7% | 8% | 4% | 16% | 12% | Leading-edge foundry, ~72% share |
+| AMD | 6.7% | 7% | 3.5% | 14% | 10.5% | Direct chip bet, kept rather than swapped for SMH |
+| MSFT | 5.4% | 5% | 2.5% | 10% | 7.5% | Azure +43%; steadiest cash flow |
+| AVGO | 5.0% | 5% | 2.5% | 10% | 7.5% | Custom AI silicon and networking |
+| AMZN | 3.2% | legacy | never | 6% | 3% | AWS exposure; never add |
 
-Pfizer and West Pharmaceutical were in the first draft (3% each) and were dropped: at this account size their weight does more work in Lilly. Roche is excluded because its US ticker is OTC-only.
+### Engine two: GLP-1 / obesity, 36% ($180)
 
-### Sleeve C: Power and grid, 15% ($75)
+| Ticker | Weight | Target | Add first below | Trim above | Back to | Role |
+|---|---|---|---|---|---|---|
+| LLY | 15.7% | 16% | 8% | 32% | 24% | Category leader |
+| NVO | 7.0% | 7% | 3.5% | 14% | 10.5% | Contrarian second source |
+| AMGN | 4.0% | 4% | 2% | 8% | 6% | MariTide monthly dosing, dividend payer |
+| GPCR | 2.0% | 2% | never | 6% | 3% | Speculative oral GLP-1 in Phase 3 |
+| HIMS | 3.7% | legacy | never | 8% | 4% | Distributor, not developer |
+| WST | 3.6% | legacy | never | 8% | 4% | Pen components at ~30x |
 
-| Ticker | Target | Dollars | Trim above | Why |
-|---|---|---|---|---|
-| VRT | 5% | $25 | 10% | Vertiv. Power distribution, thermal management and liquid cooling for data centers. |
-| GEV | 5% | $25 | 10% | GE Vernova. Gas turbines, grid transformers and switchgear; sold out for years. **Not price-checked in this research pass.** |
-| CEG | 5% | $25 | 10% | Constellation Energy. Largest US nuclear fleet, multi-decade power contracts with hyperscalers. **Not price-checked in this research pass.** |
+### Engine three: power and grid, 15% ($75)
 
-Caution on entry: GEV and CEG both ran very hard through 2025 and 2026. Look at a one-year chart before buying. If either looks parabolic, park its $25 half in VRT and half in SGOV and revisit at the next quarterly check.
+| Ticker | Weight | Target | Add first below | Trim above | Back to | Role |
+|---|---|---|---|---|---|---|
+| VRT | 5.1% | 5% | 2.5% | 10% | 7.5% | Data-center power and liquid cooling |
+| GEV | 5.0% | 5% | 2.5% | 10% | 7.5% | Turbines, transformers, switchgear. **Not price-checked; chart-check before buying** |
+| CEG | 5.0% | 5% | 2.5% | 10% | 7.5% | Largest US nuclear fleet. **Not price-checked; chart-check before buying** |
 
-### Sleeve D: Rebalancing reservoir, 5% ($25)
+### Other, 10% ($51)
 
-| Ticker | Target | Dollars | Floor | Why |
-|---|---|---|---|---|
-| SGOV | 5% | $25 | 3% | 0-3 month T-bills (0.09% fee, ~3.6% yield). Dry powder that funds every rebalance. |
+| Ticker | Weight | Target | Rule |
+|---|---|---|---|
+| VOO | 5.2% | legacy | Never add; trim above 10% back to 7.5% |
+| SGOV | 5.0% | 5% | Reservoir; refill to 5% whenever below 3% |
 
-**Total: 100%, $500.00.**
+**Total: 100%, $500.63 after the deposit.** A clean-sheet 14-position version (SMH for AMD, GOOGL for AMZN, VKTX added, legacy names sold) is in the git history for anyone starting from cash.
 
 ## Why it can win over the long run
 
@@ -113,25 +115,25 @@ Hyperscaler capex buys chips that have to be plugged in. Interconnection queues 
 ## Rules
 
 - **Rule 1, cadence.** Check quarterly (mid-January, April, July, October). Fifteen minutes. If nothing is triggered, close the app.
-- **Rule 2, sleeve bands.** Rebalance only if a sleeve drifts more than 10 points: AI outside 35 to 55%, GLP-1 outside 25 to 45%, power and grid outside 5 to 25%. Fund from SGOV first. SGOV never below 3%.
-- **Rule 3, single-name caps.** Trim any core name above 2x target (LLY above 36%, NVDA or SMH above 20%) back to 1.5x. Trim VKTX or GPCR above 3x by half. Never add to VKTX or GPCR.
-- **Rule 4, new money.** All new deposits go to the most underweight sleeve at its internal target weights.
+- **Rule 2, per-position bands.** Above a name's trim level, sell back to 1.5x target; cash goes to SGOV until it is 5%, then to the name furthest below target. Legacy and speculative names are never added to and are trimmed if they double. SGOV is refilled to 5% whenever it falls under 3%.
+- **Rule 3, the one sleeve check.** If NVDA, TSM, AMD, AVGO, MSFT and AMZN together exceed 55% of the account, trim the largest until the group is 50%. The chip names rise together and each can sit just under its own cap while the book is two-thirds chips. This is the only sleeve arithmetic in the plan.
+- **Rule 4, new money.** Every deposit goes to the core name with the lowest weight divided by target. Never to a legacy or speculative name. This converges the portfolio without selling.
 
 ### Kill switches (thesis triggers, not price triggers)
 
-- **A, AI sleeve.** Two or more top-five hyperscalers guide capex down y/y, or NVDA data-center revenue declines two consecutive quarters. Cut sleeve A to 25% (SMH first) and halve the power sleeve (VRT and GEV before CEG); proceeds to VOO and SGOV half and half.
-- **B, GLP-1 sleeve.** US branded net pricing cut >40% by law or negotiation, or a class-wide safety label change. Cut sleeve B to 20%; keep LLY and AMGN, exit VKTX and GPCR, halve NVO; proceeds to VOO and SGOV.
-- **C, macro.** Fed funds above 5%. Raise SGOV to 15% from the overweight sleeve. Reverse after two cuts.
-- **Position failure.** If VKTX or GPCR halves on a trial failure, do nothing. If acquired, cash goes to sleeve B at target weights. If a regulator blocks nuclear co-location deals, halve CEG into SGOV.
+- **A, AI.** Two or more top-five hyperscalers guide capex down y/y, or NVDA data-center revenue declines two consecutive quarters. Cut the AI group to 25% (AMD and AMZN first, then pro rata) and halve the power sleeve (VRT and GEV before CEG); proceeds to VOO and SGOV half and half.
+- **B, GLP-1.** US branded net pricing cut >40% by law or negotiation, or a class-wide safety label change. Cut the GLP-1 group to 20%; keep LLY and AMGN, exit GPCR, HIMS and WST, halve NVO; proceeds to VOO and SGOV.
+- **C, macro.** Fed funds above 5%. Raise SGOV to 15% from the overweight names. Reverse after two cuts.
+- **Position failure.** If GPCR halves on a trial failure, do nothing. If acquired, cash goes to the GLP-1 names at target weights. If a regulator blocks nuclear co-location deals, halve CEG into SGOV.
 
 ### Quarterly checklist
 
-1. Sleeves inside bands? If not, Rule 2.
-2. Any name above its cap? If so, Rule 3.
-3. Did a kill-switch trigger actually occur (a guide, a filing, a label), not a headline?
-4. SGOV at or above 3%?
+1. Type today's position values into the workbook's Quarterly check tab.
+2. Any row says TRIM? Sell to the "back to" level, cash to SGOV first.
+3. AI group above 55%? Trim the largest.
+4. Did a kill-switch trigger actually occur (a guide, a filing, a label), not a headline?
 5. Close the app.
 
 ## Revision note
 
-The first draft (Sept 16) held 45% AI, 40% GLP-1 (with PFE and WST at 3% each), and 15% ballast in GLDM, XLE and SGOV. It was revised on Sept 17 after the question "is there a version that better fits a hold-and-outperform challenge": the gold and energy ballast was a structural drag in a return race, and the power-and-grid chokepoint is a thesis InTheMoney's book does not cover. The ballasted version remains in the git history for anyone who prefers the smaller drawdown.
+The first draft (Sept 16) held 45% AI, 40% GLP-1 (with PFE and WST at 3% each), and 15% ballast in GLDM, XLE and SGOV. It was revised on Sept 17 after the question "is there a version that better fits a hold-and-outperform challenge": the gold and energy ballast was a structural drag in a return race, and the power-and-grid chokepoint is a thesis InTheMoney's book does not cover. The ballasted version remains in the git history for anyone who prefers the smaller drawdown. Later on Sept 17 the entry path was changed to buys-only on top of the existing 12-position account (AMD kept instead of SMH, AMZN kept instead of GOOGL, VKTX not bought, legacy names never added to), and the sleeve bands were replaced with per-position bands plus a single AI-group ceiling.

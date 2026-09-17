@@ -222,6 +222,7 @@ The revised allocation replaces the gold/energy ballast (GLDM, XLE) and the PFE/
 - Sept 17: NVO weight questioned; user kept 8%.
 - Sept 17: rebalance workbook built for the live account ($259.63 holdings + $241 deposit).
 - Sept 17: allocation revised to 45 AI / 35 GLP-1 / 15 power and grid / 5 SGOV at the user's request; PDF, markdown and workbook regenerated.
+- Sept 17 (later): entry path changed to buys-only over the existing account (17 positions, 39/36/15/5/5); sleeve bands replaced by per-position bands plus one AI-group ceiling; workbook rebuilt with Order list, Bands and Quarterly check tabs.
 
 ## 5. Open items not resolved (search budget exhausted)
 

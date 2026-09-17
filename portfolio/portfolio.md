@@ -70,12 +70,12 @@ Bands are per position: core names have an add-first level at half their target 
 ## Why it can win over the long run
 
 1. **Two uncorrelated growth engines.** GLP-1 revenue depends on prescriptions and pricing, not on hyperscaler capex.
-2. **Less blow-up risk in the same theme.** His book has 36% in MU, AMD and NVDA after memory margins hit 85%. SMH plus the toll collectors captures the upside with 25 names.
+2. **Less blow-up risk in the same theme.** His book has 36% in MU, AMD and NVDA after memory margins hit 85%. Here NVDA is 11%, AMD 7%, and memory is not held directly at all.
 3. **Bands sell strength and buy weakness automatically.** A band rule is right on average, and a 5% T-bill reservoir funds it without selling a winner.
 4. **A chokepoint he does not own.** Every data center in the capex numbers needs electricity. Turbines and transformers are backlogged for years; nuclear output is contracted a decade out. Vertiv, GE Vernova and Constellation collect that toll; his book has zero exposure.
 5. **Lower cost and lower taxes.** No subscription, no adviser layer, a handful of trades a year.
 
-**Honest caveat.** If AI keeps melting up, a 94% AI book beats this one. This version deliberately carries no gold or energy ballast: it is built to race, and when AI corrects it will fall harder than a ballasted book because the power names fall with the chips. Judge both on a rolling three-year total-return basis.
+**Honest caveat.** If AI keeps melting up, a 94% AI book beats this one. This version deliberately carries no gold or energy ballast beyond a legacy 5% in VOO: it is built to race, and when AI corrects it will fall harder than a ballasted book because the power names fall with the chips. Judge both on a rolling three-year total-return basis.
 
 ## Macro backdrop (Sept 16, 2026)
 
@@ -84,15 +84,15 @@ Bands are per position: core names have an add-first level at half their target 
 - **Valuation:** S&P 500 ~7,550, +12% YTD; forward P/E ~19x, down from 22.5x in January on 30%+ earnings growth. Morgan Stanley target 8,000 YE / 8,300 mid-2027. Capital Economics: "consistent with a late-stage bubble," 8,250 YE then -21% in 2027.
 - **AI risk event:** Sept 12 "We Must Pace the Frontier" essay; OpenAI IPO pushed to 2027; chips fell Sept 14 (MU -5%, AMD -5 to -6%, AVGO -3%, NVDA -2%).
 
-## Engine one: AI compute (45%)
+## Engine one: AI compute (39%)
 
-Big-4 hyperscaler 2026 capex ~$725 to 765B (+77%), consensus 2027 near $1T. GOOGL $195 to 205B, MSFT FY27 $255 to 260B, AMZN ~$220B, META $135 to 145B. Cloud backlogs: Google $514B, AWS $496B. NVDA supply commitments $279B. Toll collectors (NVDA, TSM, AVGO) over cyclical inputs (memory, equipment), which SMH holds at ~5% each.
+Big-4 hyperscaler 2026 capex ~$725 to 765B (+77%), consensus 2027 near $1T. GOOGL $195 to 205B, MSFT FY27 $255 to 260B, AMZN ~$220B, META $135 to 145B. Cloud backlogs: Google $514B, AWS $496B. NVDA supply commitments $279B. Toll collectors (NVDA, TSM, AVGO) plus AMD, MSFT and a legacy AMZN position; memory and equipment makers are not held at all.
 
 **Thesis-break signals:** hyperscaler capex declining y/y; chip tariffs "phase two"; China export-control loophole closure (NVDA guides zero China DC already); 10-year above 5%; an industry-led slowdown showing up in orders.
 
-## Engine two: GLP-1 / obesity (35%)
+## Engine two: GLP-1 / obesity (36%)
 
-Class sales ~$132B in 2025 (+33%); 2030 forecasts $114B (Goldman, obesity) to $200B (J.P. Morgan, incretins). Oral drugs went from zero to ~206k weekly US scripts in under a year. Lilly leads (Zepbound beat CagriSema; Foundayo approved April 1; retatrutide up to 30.3% weight loss). Novo priced for permanent decline (12x trailing) despite oral Wegovy share and six Phase 3 amycretin trials. Next wave is dosing and delivery: monthly injections (AMGN MariTide, Pfizer berobenatide) and daily pills (GPCR aleniglipron, VKTX oral, AZN elecoglipron). Over $50B of obesity M&A since 2025.
+Class sales ~$132B in 2025 (+33%); 2030 forecasts $114B (Goldman, obesity) to $200B (J.P. Morgan, incretins). Oral drugs went from zero to ~206k weekly US scripts in under a year. Lilly leads (Zepbound beat CagriSema; Foundayo approved April 1; retatrutide up to 30.3% weight loss). Novo priced for permanent decline (12x trailing) despite oral Wegovy share and six Phase 3 amycretin trials. Next wave is dosing and delivery: monthly injections (AMGN MariTide, Pfizer berobenatide) and daily pills (GPCR aleniglipron, Viking oral, AZN elecoglipron). Over $50B of obesity M&A since 2025.
 
 | Asset (holder) | Stage / registry | Key number | Next catalyst |
 |---|---|---|---|
@@ -101,10 +101,10 @@ Class sales ~$132B in 2025 (+33%); 2030 forecasts $114B (Goldman, obesity) to $2
 | Wegovy pill (NVO) | Approved Dec 2025 | ~172k weekly Rx | EU rollout; EASD Sept 28 to Oct 2 |
 | Amycretin (NVO) | Ph3 AMAZE 1 to 8, NCT07339423 | ~22 to 24% at 36 wk | 2028 to 2029 |
 | MariTide (AMGN) | Ph3 MARITIME-1/2, NCT06858839 | ~20% at 52 wk | Topline 1H 2027 |
-| VK2735 (VKTX) | Ph3 VANQUISH-1/2, NCT07104500 | Oral 12.2% at 13 wk | Q3 2026 maintenance data |
+| VK2735 (Viking, not held) | Ph3 VANQUISH-1/2, NCT07104500 | Oral 12.2% at 13 wk | Q3 2026 maintenance data |
 | Aleniglipron (GPCR) | Ph3 ACCOMPLISH-1/2, NCT07654361 | ~16% pbo-adj at 44 wk | ~2028 |
 
-**Thesis-break signals:** US net price cut >40% (MFN deal already set Medicare at $245/month); ex-US semaglutide generics (Canada, China 2026); class-wide safety label; single-trial failure (why VKTX + GPCR are capped at 4%).
+**Thesis-break signals:** US net price cut >40% (MFN deal already set Medicare at $245/month); ex-US semaglutide generics (Canada, China 2026); class-wide safety label; single-trial failure (why GPCR is capped at 6% and never added to).
 
 ## Engine three: power and grid (15%)
 

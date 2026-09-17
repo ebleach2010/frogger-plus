@@ -1,24 +1,23 @@
 Step,Ticker,Order,Amount USD,Target weight,Why
-1 SELL,WST,Sell,2.96,3%,Keep; already near target
 1 SELL,AMD,Sell ALL,33.76,0%,Exit; SMH holds AMD at ~5% weight
-1 SELL,HIMS,Sell ALL,18.37,0%,"Exit; compounding wound down, now a Wegovy reseller"
+1 SELL,HIMS,Sell ALL,18.37,0%,"Exit; reseller of other companies' GLP-1s, not a developer"
 1 SELL,VOO,Sell ALL,25.93,0%,"Exit; VOO is the kill-switch destination, not a starting position"
-1 SELL,AMZN,Sell ALL,16.25,0%,Exit; AWS exposure comes via MSFT/GOOGL in this plan
-1 SELL,VRT,Sell ALL,10.34,0%,Exit; optional keep (see note below)
+1 SELL,AMZN,Sell ALL,16.25,0%,Exit; cloud exposure comes via MSFT/GOOGL in this plan
+1 SELL,WST,Sell ALL,17.98,0%,"Exit; components maker at ~30x, weight rolled into LLY"
+2 BUY,LLY,Buy add,53.59,18%,Keep; top up (absorbs the PFE/WST weight)
 2 BUY,SMH,Buy new,50.06,10%,New. Semis ETF; replaces direct AMD
-2 BUY,LLY,Buy add,43.58,16%,Keep; top up
 2 BUY,NVO,Buy new,40.05,8%,New
 2 BUY,GOOGL,Buy new,30.04,6%,New
 2 BUY,AMGN,Buy new,25.03,5%,New
-2 BUY,GLDM,Buy new,25.03,5%,New. Gold
-2 BUY,XLE,Buy new,25.03,5%,New. Energy
-2 BUY,SGOV,Buy new,25.03,5%,"New. T-bills, rebalancing reservoir"
+2 BUY,GEV,Buy new,25.03,5%,New. Gas turbines and grid equipment. NOT price-checked this pass
+2 BUY,CEG,Buy new,25.03,5%,"New. Nuclear fleet, data-center power deals. NOT price-checked this pass"
+2 BUY,SGOV,Buy new,25.03,5%,New. T-bills; funds every rebalance
 2 BUY,AVGO,Buy add,17.03,6%,Keep; top up
 2 BUY,TSM,Buy add,16.58,8%,Keep; top up
-2 BUY,PFE,Buy new,15.02,3%,New
-2 BUY,VKTX,Buy new,15.02,3%,New. Speculative; never add later
+2 BUY,VRT,Buy add,14.69,5%,Keep; top up. Data-center power and cooling
 2 BUY,NVDA,Buy add,11.21,10%,Keep; top up
+2 BUY,VKTX,Buy new,10.01,2%,New. Speculative; never add later
 2 BUY,MSFT,Buy add,8.81,5%,Keep; top up
 2 BUY,GPCR,Buy add,1.08,2%,Keep; already near target
 
-,,Net cash needed,240.99,,"Deposit 241.00, leftover 0.01"
+,,Net cash needed,240.98,,"Deposit 241.00, leftover 0.02"

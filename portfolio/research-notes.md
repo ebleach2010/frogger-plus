@@ -208,9 +208,24 @@ Gathered September 16, 2026. The research sandbox could not load full web pages 
 
 Sources: search excerpts of stockanalysis.com, finance.yahoo.com, robinhood.com, macrotrends.net, companiesmarketcap.com, gurufocus.com, valueinvesting.io; year-end 2025 closes via statmuse.com. Fund pages: https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle , https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-minishares-gldm , https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf
 
+## 6. Power and grid sleeve (added Sept 17 revision)
+
+The revised allocation replaces the gold/energy ballast (GLDM, XLE) and the PFE/WST positions with a 15% power-and-grid sleeve: VRT, GEV, CEG at 5% each. Basis for the thesis is the hyperscaler capex and cloud-backlog figures in section 2 (data centers need firm power; turbines, transformers and interconnection are the bottleneck) and widely reported hyperscaler nuclear power contracts. **The web-search budget for this session was exhausted before this revision, so:**
+
+- VRT: price implied from the user's own holding, ~$244 (0.042426 shares = $10.34 on Sept 17). No fundamentals re-checked.
+- GEV, CEG: **not researched at current prices or valuations in this session.** Both had very large 2025 to 2026 runs. The memo tells the reader to check a one-year chart before buying and to park the allocation in VRT/SGOV if either looks parabolic.
+- Listing check from general knowledge, not verified this session: VRT NYSE, GEV NYSE, CEG Nasdaq. All three are large caps and should be fractional-eligible on Robinhood.
+
+## 7. Revision log
+
+- Sept 16: first draft, 45/40/15 with ballast; PDF and markdown committed.
+- Sept 17: NVO weight questioned; user kept 8%.
+- Sept 17: rebalance workbook built for the live account ($259.63 holdings + $241 deposit).
+- Sept 17: allocation revised to 45 AI / 35 GLP-1 / 15 power and grid / 5 SGOV at the user's request; PDF, markdown and workbook regenerated.
+
 ## 5. Open items not resolved (search budget exhausted)
 
-- PFE current price and YTD; AMGN, FRO YTD.
+- GEV and CEG current prices, valuations and YTD (now in the plan and unverified). AMGN, FRO YTD.
 - NVO forward P/E; Novo FY26 guidance ranges in DKK.
 - Foundayo Q2 revenue.
 - CPI food component for August.
